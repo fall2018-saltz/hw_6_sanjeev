@@ -30,12 +30,17 @@
             "name": "raw_data.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "saramasa",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-04 15:12:14",
+    "updated_at": "2018-10-04 15:22:45",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
