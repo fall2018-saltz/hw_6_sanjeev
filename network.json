@@ -1,0 +1,47 @@
+{
+    "collaborators": [
+        "saramasa"
+    ],
+    "created_at": "2018-10-04 15:12:14",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "assigned_to": "saramasa",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "desc": "Cleaning the dataset",
+            "name": "Clean.R"
+        }
+    ],
+    "updated_at": "2018-10-10 14:23:46",
+    "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
+}
