@@ -58,11 +58,8 @@
             "desc": "Clean the dataset",
             "name": "Clean.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-10 17:57:05",
+    "updated_at": "2018-10-10 17:57:35",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
