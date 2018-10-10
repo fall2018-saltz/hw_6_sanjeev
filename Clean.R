@@ -7,19 +7,7 @@ clean<-function(){
   colnames(data)<-c('statesName','population','popover18','percentover18')
   #Deleting the unneeded rows!!
   data<-data[-c(1,10,53),]
-  #View(arrests)
-  #nrow(data)
-  #nrow(df)
-  #Loading arrests dataset
-  arrests<-USArrests
-  #Converting rownames to column
-  df<-merge(data,arrests,by="row.names")
-  #arrests<- arrests %>% rownames_to_column('statesName')
-  #Assigning the intersect for the merge
-  #common<-intersect(names(arrests$statesName),names(data$STATE))
-  #Merging the dataframes
-  #df<-merge(data,arrests,by.x='statesName',by.y = 'statesName')
+  rownames(data)<-as.vector(data[,"statesName"])
   }
-
+  
 clean()
-nrow(df)
