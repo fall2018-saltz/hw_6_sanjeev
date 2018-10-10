@@ -160,8 +160,12 @@
         },
         {
             "name": "murbox.png"
+        },
+        {
+            "desc": "Code with the calculation of number of murders and the corresponding plot.",
+            "name": "NMurder.R"
         }
     ],
-    "updated_at": "2018-10-10 18:56:48",
+    "updated_at": "2018-10-10 19:01:17",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
