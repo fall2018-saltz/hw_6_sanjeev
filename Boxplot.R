@@ -12,3 +12,4 @@ murbox<-ggplot(df, aes(x="", y=df$Murder, color=Murder))+geom_boxplot()+scale_y_
 murbox
 
 #Visualization Choice
+# To know the spread/distribution of the data histogram is the better choise. In case you want to know how
