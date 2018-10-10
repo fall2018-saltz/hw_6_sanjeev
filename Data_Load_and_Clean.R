@@ -12,6 +12,7 @@ clean<-function(){
   #nrow(df)
   #Loading arrests dataset
   arrests<-USArrests
+  #Converting rownames to column
   arrests<- arrests %>% rownames_to_column('statesName') 
   common<-intersect(names(arrests$statesName),names(data$STATE))
   df<-merge(data,arrests,by.x='statesName',by.y = 'statesName')
