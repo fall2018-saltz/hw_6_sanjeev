@@ -97,32 +97,22 @@
         {
             "ports": [
                 {
-                    "output": "popbox",
-                    "type": "png"
-                }
-            ],
-            "source": "plot1.R",
-            "target": "popbox.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "murbox",
-                    "type": "png"
-                }
-            ],
-            "source": "plot1.R",
-            "target": "murbox.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "type": "csv"
                 }
             ],
             "source": "data.csv",
             "target": "Boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popbox",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot.R",
+            "target": "popbox.png"
         }
     ],
     "nodes": [
@@ -172,10 +162,12 @@
             "name": "murbox.png"
         },
         {
+            "assigned_to": "saramasa",
             "desc": "Box plots",
-            "name": "Boxplot.R"
+            "name": "Boxplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:04:10",
+    "updated_at": "2018-10-10 19:04:57",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
