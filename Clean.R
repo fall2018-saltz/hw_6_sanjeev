@@ -8,4 +8,5 @@ clean<-function(data){
     data<-data[-c(1,10,53),]
     rownames(data)<-as.vector(data[,"statesName"])
     nrow(data)
+    
 }
