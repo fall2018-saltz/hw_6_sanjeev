@@ -113,16 +113,6 @@
             ],
             "source": "plot1.R",
             "target": "murbox.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "NMurder.R"
         }
     ],
     "nodes": [
@@ -170,12 +160,8 @@
         },
         {
             "name": "murbox.png"
-        },
-        {
-            "desc": "Code with the calculation of number of murders and the corresponding plot.",
-            "name": "NMurder.R"
         }
     ],
-    "updated_at": "2018-10-10 19:01:28",
+    "updated_at": "2018-10-10 19:02:25",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
