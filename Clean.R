@@ -9,5 +9,3 @@ clean<-function(){
     rownames(data)<-as.vector(data[,"statesName"])
     nrow(data)
 }
-
-data
