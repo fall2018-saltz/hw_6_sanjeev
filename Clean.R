@@ -15,3 +15,5 @@ colnames(d)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "percentOve
 
 data <- clean(scprc_est_2017_18_pop_res)
 str(data)
+
+write.csv(data,"data.csv")
