@@ -34,7 +34,7 @@ sortedmurder
 #Sorted x-axis with Percentover18 as the color of the bar
 #df$statesName<-reorder(df$statesName,df$Murder)
 
-color<-ggplot(df,aes(x=stateName, y=Murder, fill=percentovet18))+
+color<-ggplot(df,aes(x=stateName, y=Murder, fill=percentOver18))+
   geom_bar(stat = "identity")+geom_text(aes(label=Murder),vjust=0.4,hjust=-1, color="red", size=3, angle=90) +
   ggtitle("Chart with the number of murders per state")+
   theme(axis.text.x=element_text(angle=90))
