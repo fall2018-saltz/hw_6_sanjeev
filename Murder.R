@@ -39,3 +39,4 @@ color<-ggplot(df,aes(x=stateName, y=Murder, fill=percentovet18))+
   ggtitle("Chart with the number of murders per state")+
   theme(axis.text.x=element_text(angle=90))
 
+color
