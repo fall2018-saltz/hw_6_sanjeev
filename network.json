@@ -73,6 +73,16 @@
             ],
             "source": "plot1.R",
             "target": "population.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder",
+                    "type": "png"
+                }
+            ],
+            "source": "plot1.R",
+            "target": "murder.png"
         }
     ],
     "nodes": [
@@ -116,6 +126,6 @@
             "name": "murder.png"
         }
     ],
-    "updated_at": "2018-10-10 18:27:13",
+    "updated_at": "2018-10-10 18:27:22",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
