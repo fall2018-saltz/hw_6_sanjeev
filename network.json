@@ -103,6 +103,16 @@
             ],
             "source": "plot1.R",
             "target": "urbanpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "popbox",
+                    "type": "png"
+                }
+            ],
+            "source": "plot1.R",
+            "target": "popbox.png"
         }
     ],
     "nodes": [
@@ -158,6 +168,6 @@
             "name": "murbox.png"
         }
     ],
-    "updated_at": "2018-10-10 18:56:13",
+    "updated_at": "2018-10-10 18:56:23",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
