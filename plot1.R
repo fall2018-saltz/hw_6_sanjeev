@@ -19,13 +19,8 @@ urbanpop
 
 df$nMurder <- as.integer(df$population*df$Murder/100000)
 
-#Bar Charts
-#Most number of murder rates
-murbar<-ggplot(df, aes(x=stateName, y=nMurder))+geom_bar(stat = "identity", fill='white',color='red')
-murbar
-
 #Bar Chart with the number of murders per state
-ggplot(df, aes(x=stateName, y=(Murder*population)/1000))+geom_bar(stat = "identity", fill='white',color='black')+
+murbar<- ggplot(df, aes(x=stateName, y=(Murder*population)/1000))+geom_bar(stat = "identity", fill='white',color='black')+
   ggtitle("Chart with the number of murders per state")+geom_text(aes(label=Murder),vjust=-1.75,hjust=0.75, color="red", size=3)+labs(x="State",y="Murder Rate")
 
 #Bar Chart with the number of murders per state (with the x-axis labels rotated)
