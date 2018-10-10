@@ -1,5 +1,5 @@
 
-clean<-function(data){
+clean<-function(){
 
     data<-data[,-c(1:4)] 
     #renaming columns
