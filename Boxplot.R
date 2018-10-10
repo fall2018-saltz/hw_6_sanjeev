@@ -13,4 +13,5 @@ murbox
 
 #Visualization Choice
 # To know the spread/distribution of the data histogram is the better choise. In case you want to know
-# the description of the data, quantile information & mean box plot is the obvious choice. I prefer histogram as
+# the description of the data, quantile information & mean box plot is the obvious choice. 
+#I prefer histogram as the data can be much more visually presented compared to box plot.
