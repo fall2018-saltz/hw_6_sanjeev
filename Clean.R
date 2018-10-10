@@ -10,4 +10,4 @@ clean<-function(data){
     nrow(data)
 }
 
-clean(data)
+nrow(data)
