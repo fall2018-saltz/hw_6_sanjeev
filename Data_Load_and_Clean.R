@@ -24,3 +24,4 @@ clean<-function(){
   }
 
 clean()
+View(df)
