@@ -1,5 +1,5 @@
 
-clean<-function(){
+clean<-function(data){
 
     data<-data[,-c(1:4)] 
     #renaming columns
@@ -9,5 +9,3 @@ clean<-function(){
     rownames(data)<-as.vector(data[,"statesName"])
     nrow(data)
 }
-
-clean()
