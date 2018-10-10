@@ -11,4 +11,4 @@ clean<-function(){
   }
   
 clean()
-View(data)
+data
