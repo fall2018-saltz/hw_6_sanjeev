@@ -19,8 +19,8 @@ murbox<-ggplot(df, aes(x="", y=df$Murder, color=Murder))+geom_boxplot()+scale_y_
 
 #Bar Charts
 #Most number of murder rates
-plot<-ggplot(df, aes(x=stateName, y=Murder))+geom_bar(stat = "identity", fill='white',color='red')
-plot
+murbar<-ggplot(df, aes(x=stateName, y=Murder))+geom_bar(stat = "identity", fill='white',color='red')
+murbar
 
 #Bar Chart with the number of murders per state
 ggplot(df, aes(x=stateName, y=(Murder*population)/1000))+geom_bar(stat = "identity", fill='white',color='black')+
