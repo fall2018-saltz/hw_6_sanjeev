@@ -43,6 +43,16 @@
             ],
             "source": "Clean.R",
             "target": "clean_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean_data.csv",
+            "target": "Clean_Merge.R"
         }
     ],
     "nodes": [
@@ -77,6 +87,6 @@
             "name": "Clean_Merge.R"
         }
     ],
-    "updated_at": "2018-10-10 18:03:27",
+    "updated_at": "2018-10-10 18:03:42",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
