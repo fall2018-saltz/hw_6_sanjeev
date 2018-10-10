@@ -113,6 +113,16 @@
             ],
             "source": "plot1.R",
             "target": "murbox.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Boxplot.R"
         }
     ],
     "nodes": [
@@ -166,6 +176,6 @@
             "name": "Boxplot.R"
         }
     ],
-    "updated_at": "2018-10-10 19:04:01",
+    "updated_at": "2018-10-10 19:04:10",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
