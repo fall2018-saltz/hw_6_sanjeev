@@ -39,8 +39,12 @@
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "desc": "Loads the data and cleans it by removing unwanted columns.",
+            "name": "Data_Load_and_Clean.R"
         }
     ],
-    "updated_at": "2018-10-10 17:11:21",
+    "updated_at": "2018-10-10 17:12:58",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
