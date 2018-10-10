@@ -83,6 +83,16 @@
             ],
             "source": "plot1.R",
             "target": "murder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "assault",
+                    "type": "png"
+                }
+            ],
+            "source": "plot1.R",
+            "target": "assault.png"
         }
     ],
     "nodes": [
@@ -129,6 +139,6 @@
             "name": "assault.png"
         }
     ],
-    "updated_at": "2018-10-10 18:53:22",
+    "updated_at": "2018-10-10 18:53:35",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
