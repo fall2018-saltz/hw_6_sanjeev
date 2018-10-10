@@ -7,16 +7,6 @@
         {
             "ports": [
                 {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "raw_data.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "scprc_est_2017_18_pop_res",
                     "type": "csv"
                 }
@@ -90,11 +80,6 @@
             "name": "raw_data.csv"
         },
         {
-            "assigned_to": "saramasa",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
@@ -131,6 +116,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-10 18:18:11",
+    "updated_at": "2018-10-10 18:18:42",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
