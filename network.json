@@ -112,10 +112,15 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "saramasa",
             "desc": "",
-            "name": "plot1.R"
+            "name": "plot1.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-10 18:15:57",
+    "updated_at": "2018-10-10 18:17:59",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
