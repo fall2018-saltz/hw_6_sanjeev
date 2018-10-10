@@ -113,6 +113,16 @@
             ],
             "source": "Boxplot.R",
             "target": "popbox.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murbox",
+                    "type": "png"
+                }
+            ],
+            "source": "Boxplot.R",
+            "target": "murbox.png"
         }
     ],
     "nodes": [
@@ -168,6 +178,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 19:04:57",
+    "updated_at": "2018-10-10 19:05:11",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
