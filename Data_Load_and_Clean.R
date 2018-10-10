@@ -16,7 +16,8 @@ clean<-function(){
   #Loading arrests dataset
   arrests<-USArrests
   #Converting rownames to column
-  rownames(arrests)<-as.vector(data[,"statesName"])''
+  rownames(data)<-as.vector(data[,"statesName"])
+  
   arrests<- arrests %>% rownames_to_column('statesName')
   #Assigning the intersect for the merge
   common<-intersect(names(arrests$statesName),names(data$STATE))
