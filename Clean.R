@@ -13,5 +13,5 @@ colnames(states)[c(1,2,3,4)] <- c("stateName", "population", "popOver18", "perce
 
 }
 
-clean_data <- clean_data(raw_data)
+clean_data <- clean_data(scprc_est_2017_18_pop_res)
 str(clean_data)
