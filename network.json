@@ -77,9 +77,6 @@
     ],
     "nodes": [
         {
-            "name": "raw_data.csv"
-        },
-        {
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
@@ -116,6 +113,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-10 18:18:42",
+    "updated_at": "2018-10-10 18:19:10",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
