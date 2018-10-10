@@ -176,8 +176,12 @@
             "desc": "Box plots",
             "name": "Boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "calculation of number of murders per state and corresponding plot",
+            "name": "Murder.R"
         }
     ],
-    "updated_at": "2018-10-10 19:05:11",
+    "updated_at": "2018-10-10 19:07:02",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
