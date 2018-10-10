@@ -192,8 +192,11 @@
             "desc": "calculation of number of murders per state and corresponding plot",
             "name": "Murder.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "murbar.png"
         }
     ],
-    "updated_at": "2018-10-10 19:09:14",
+    "updated_at": "2018-10-10 19:09:27",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
