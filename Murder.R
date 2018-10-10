@@ -1,4 +1,5 @@
 
+library(ggplot2)
 df$nMurder <- as.integer(df$population*df$Murder/100000)
 
 #Bar Chart with the number of murders per state
