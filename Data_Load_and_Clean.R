@@ -10,6 +10,7 @@ clean<-function(){
   #View(arrests)
   #nrow(data)
   #nrow(df)
+  #Loading arrests dataset
   arrests<-USArrests
   arrests<- arrests %>% rownames_to_column('statesName') 
   common<-intersect(names(arrests$statesName),names(data$STATE))
