@@ -12,16 +12,6 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "Data_Load_and_Clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "scprc_est_2017_18_pop_res",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "Clean.R"
         },
         {
@@ -131,12 +121,6 @@
         },
         {
             "assigned_to": "saramasa",
-            "desc": "Loads the data and cleans it by removing unwanted columns.",
-            "name": "Data_Load_and_Clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "saramasa",
             "desc": "Clean the dataset",
             "name": "Clean.R",
             "task_status": "in progress"
@@ -178,6 +162,6 @@
             "name": "murbox.png"
         }
     ],
-    "updated_at": "2018-10-10 18:56:33",
+    "updated_at": "2018-10-10 18:56:48",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
