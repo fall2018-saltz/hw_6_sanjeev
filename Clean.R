@@ -1,6 +1,4 @@
 
-data=read.csv("scprc_est_2017_18_pop_res.csv")
-#Deleting unneeded columns
 data<-data[,-c(1:4)]
 #renaming columns
 colnames(data)<-c('statesName','population','popover18','percentover18')
