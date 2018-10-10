@@ -40,3 +40,5 @@ color<-ggplot(df,aes(x=stateName, y=Murder, fill=percentOver18))+
   theme(axis.text.x=element_text(angle=90))
 
 color
+#Scatter Plot
+scatter<-ggplot(df, aes(x=population, y=percentOver18))+geom_point(aes(size=Murder, color=Murder))
