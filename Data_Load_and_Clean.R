@@ -1,6 +1,6 @@
 
 library(tibble)
-library(dplyr)
+#library(dplyr)
 
 clean<-function(){
   data=read.csv("scprc_est_2017_18_pop_res.csv",stringsAsFactors = FALSE)
@@ -16,7 +16,7 @@ clean<-function(){
   #Loading arrests dataset
   arrests<-USArrests
   #Converting rownames to column
-  arrests<- filter(arrests,rownames_to_column('statesName'))
+  arrests<- arrests %>% rownames_to_column('statesName')
   #Assigning the intersect for the merge
   common<-intersect(names(arrests$statesName),names(data$STATE))
   #Merging the dataframes
