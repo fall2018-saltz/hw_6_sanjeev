@@ -73,6 +73,16 @@
             ],
             "source": "data.csv",
             "target": "plot1.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "population",
+                    "type": "png"
+                }
+            ],
+            "source": "plot1.R",
+            "target": "population.png"
         }
     ],
     "nodes": [
@@ -121,6 +131,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-10 18:17:59",
+    "updated_at": "2018-10-10 18:18:11",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
