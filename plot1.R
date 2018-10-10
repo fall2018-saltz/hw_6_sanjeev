@@ -16,7 +16,8 @@ assault
 urbanpop<-ggplot(df, aes(df$UrbanPop))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Murder Rate")+ scale_y_continuous("Count")
 urbanpop
 
-#Parameter Change: The only parameter change within these three plots is the 'bin'. As the population variable's  
+#Parameter Change: The only parameter change within these three plots is the 'bin'. As the population variable's 
+#
 
 #Sorted x-axis
 df$stateName<-reorder(df$stateName,df$Murder)
