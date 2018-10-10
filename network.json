@@ -51,10 +51,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "saramasa",
             "desc": "Loads the data and cleans it by removing unwanted columns.",
-            "name": "Data_Load_and_Clean.R"
+            "name": "Data_Load_and_Clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "Clean the dataset",
+            "name": "Clean.R"
         }
     ],
-    "updated_at": "2018-10-10 17:13:19",
+    "updated_at": "2018-10-10 17:32:42",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
