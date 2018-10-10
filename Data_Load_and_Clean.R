@@ -1,4 +1,6 @@
 
+library(tibble)
+library(dplyr)
 clean<-function(){
   data=read.csv("scprc_est_2017_18_pop_res.csv",stringsAsFactors = FALSE)
   #Deleting unneeded columns
