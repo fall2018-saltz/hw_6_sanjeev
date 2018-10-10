@@ -26,7 +26,7 @@ murbar3
 #Sorted x-axis
 df$stateName<-reorder(df$stateName,df$Murder)
 sortedmurder<-ggplot(df, aes(x=stateName, y=Murder), angle=90)+geom_bar(stat = "identity", fill='white',color='black')+
-  geom_text(aes(label=Murder),vjust=0.4,hjust=-1, color="red", size=3, angle=90) +
+  geom_text(aes(label=Murder),vjust=0.4,hjust=-0.15, color="red", size=3, angle=90) +
   ggtitle("Chart with the number of murders per state")+theme(axis.text.x=element_text(angle=90))
 
 sortedmurder
