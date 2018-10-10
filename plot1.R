@@ -25,3 +25,20 @@ plot
 #Bar Chart with the number of murders per state
 ggplot(df, aes(x=statesName, y=(Murder*population)/1000))+geom_bar(stat = "identity", fill='white',color='black')+
   ggtitle("Chart with the number of murders per state")+geom_text(aes(label=Murder),vjust=-1.75,hjust=0.75, color="red", size=3)+labs(x="States",y="Murder Rate")
+
+#Bar Chart with the number of murders per state (with the x-axis labels rotated)
+ggplot(df, aes(x=statesName, y=Murder), angle=90)+geom_bar(stat = "identity", fill='white',color='black')+
+  geom_text(aes(label=Murder),vjust=0.4,hjust=-0.25, color="red", size=3, angle=90) +
+  ggtitle("Chart with the Murder Rate per state")+
+  theme(axis.text.x=element_text(angle=90))+
+  labs(x="States",y="Murder Rate")
+
+#Another way to do achieve this is to rotate the whole chart 90 degrees
+ggplot(df, aes(x=statesName, y=Murder))+geom_bar(stat = "identity", fill='white',color='black')+
+  ggtitle("Chart with the Murder Rate per state")+geom_text(aes(label=Murder),vjust=0.35,hjust=-1, color="red", size=3)+labs(x="States",y="Murder Rate")+coord_flip()
+
+#Sorted x-axis
+df$statesName<-reorder(df$statesName,df$Murder)
+ggplot(df, aes(x=statesName, y=Murder), angle=90)+geom_bar(stat = "identity", fill='white',color='black')+
+  geom_text(aes(label=Murder),vjust=0.4,hjust=-1, color="red", size=3, angle=90) +
+  ggtitle("Chart with the number of murders per state")+theme(axis.text.x=element_text(angle=90))
