@@ -4,7 +4,7 @@ df$nMurder <- as.integer(df$population*df$Murder/100000)
 #Bar Chart with the number of murders per state
 murbar<-ggplot(df, aes(x=stateName, y=nMurder)+geom_bar(stat = "identity", fill='white',color='black')+
   ggtitle("Chart with the number of murders per state")+
-  geom_text(aes(label=Murder),vjust=-1.75,hjust=0.75, color="red", size=3)+labs(x="State",y="Murder")
+  geom_text(aes(label=Murder),vjust=-1.75,hjust=0.75, color="red", size=3)+labs(x="State",y="Number of Murders")
 murbar
 
 #Bar Chart with the number of murders per state (with the x-axis labels rotated)
