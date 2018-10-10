@@ -2,7 +2,7 @@
 library(ggplot2)
 library(scales)
 
-population<-ggplot(df, aes(df$population))+ geom_histogram(color="black", fill="white", bins = 500)+  scale_x_continuous("Population")+ scale_y_continuous("Count")
+population<-ggplot(df, aes(df$population))+ geom_histogram(color="black", fill="white", bins = 5000)+  scale_x_continuous("Population")+ scale_y_continuous("Count")
 population
 
 murder<-ggplot(df, aes(df$Murder))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Murder Rate")+ scale_y_continuous("Count")
@@ -16,7 +16,8 @@ assault
 urbanpop<-ggplot(df, aes(df$UrbanPop))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Murder Rate")+ scale_y_continuous("Count")
 urbanpop
 
-
+#Parameter Change: The only parameter change within these three plots is the 'bin'. As the population 
+#variable's spread is huge a higher bin is the prefered choice. So, that's the only parameter change.
 
 #Sorted x-axis
 df$stateName<-reorder(df$stateName,df$Murder)

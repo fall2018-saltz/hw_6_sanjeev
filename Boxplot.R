@@ -10,3 +10,8 @@ popbox
 murbox<-ggplot(df, aes(x="", y=df$Murder, color=Murder))+geom_boxplot()+scale_y_continuous(name="Murder", labels = comma)+
   stat_summary(fun.ymin=median, fun.ymax=median, fun.y=median, geom="crossbar")
 murbox
+
+#Visualization Choice
+# To know the spread/distribution of the data histogram is the better choise. In case you want to know
+# the description of the data, quantile information & mean box plot is the obvious choice. 
+#I prefer histogram as the data can be much more visually presented compared to box plot.
