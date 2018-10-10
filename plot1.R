@@ -16,3 +16,8 @@ popbox
 #Box plot for Murder Rate
 murbox<-ggplot(df, aes(x="", y=df$Murder, color=Murder))+geom_boxplot()+scale_y_continuous(name="Murder", labels = comma)+
   stat_summary(fun.ymin=median, fun.ymax=median, fun.y=median, geom="crossbar")
+
+#Bar Charts
+#Most number of murder rates
+plot<-ggplot(df, aes(x=statesName, y=Murder))+geom_bar(stat = "identity", fill='white',color='red')
+plot
