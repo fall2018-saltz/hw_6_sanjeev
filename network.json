@@ -257,8 +257,11 @@
         },
         {
             "name": "color.png"
+        },
+        {
+            "name": "scatter.png"
         }
     ],
-    "updated_at": "2018-10-10 19:39:31",
+    "updated_at": "2018-10-10 19:42:11",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
