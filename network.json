@@ -183,6 +183,16 @@
             ],
             "source": "Murder.R",
             "target": "color.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "Murder.R",
+            "target": "scatter.png"
         }
     ],
     "nodes": [
@@ -262,6 +272,6 @@
             "name": "scatter.png"
         }
     ],
-    "updated_at": "2018-10-10 19:42:11",
+    "updated_at": "2018-10-10 19:42:20",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
