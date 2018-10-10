@@ -143,6 +143,16 @@
             ],
             "source": "Murder.R",
             "target": "murbar.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murbar2",
+                    "type": "png"
+                }
+            ],
+            "source": "Murder.R",
+            "target": "murbar2.png"
         }
     ],
     "nodes": [
@@ -213,6 +223,6 @@
             "name": "murbar3.png"
         }
     ],
-    "updated_at": "2018-10-10 19:10:08",
+    "updated_at": "2018-10-10 19:10:18",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
