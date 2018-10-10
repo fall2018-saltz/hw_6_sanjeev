@@ -17,12 +17,12 @@ clean<-function(){
   arrests<-USArrests
   #Converting rownames to column
   rownames(data)<-as.vector(data[,"statesName"])
-  
-  arrests<- arrests %>% rownames_to_column('statesName')
+  df<-merge(data,arrests,by="row.names")
+  #arrests<- arrests %>% rownames_to_column('statesName')
   #Assigning the intersect for the merge
-  common<-intersect(names(arrests$statesName),names(data$STATE))
+  #common<-intersect(names(arrests$statesName),names(data$STATE))
   #Merging the dataframes
-  df<-merge(data,arrests,by.x='statesName',by.y = 'statesName')
+  #df<-merge(data,arrests,by.x='statesName',by.y = 'statesName')
   }
 
 clean()
