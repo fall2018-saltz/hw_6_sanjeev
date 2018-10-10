@@ -23,6 +23,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "Data_Load_and_Clean.R"
         }
     ],
     "nodes": [
@@ -45,6 +55,6 @@
             "name": "Data_Load_and_Clean.R"
         }
     ],
-    "updated_at": "2018-10-10 17:12:58",
+    "updated_at": "2018-10-10 17:13:19",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
