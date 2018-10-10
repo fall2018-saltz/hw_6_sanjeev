@@ -8,6 +8,12 @@ population
 murder<-ggplot(df, aes(df$Murder))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Murder Rate")+ scale_y_continuous("Count")
 murder
 
+#Histogram for Assault
+ggplot(df, aes(df$Murder))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Assault")+ scale_y_continuous("Count")
+
+#Histogram for UrbanPop
+ggplot(df, aes(df$UrbanPop))+ geom_histogram(color="black", fill="red", bins = 50)+  scale_x_continuous("Murder Rate")+ scale_y_continuous("Count")
+
 #Box plot for population
 popbox<-ggplot(df, aes(x="", y=df$population, color=population))+geom_boxplot()+scale_y_continuous(name="Population", labels = comma)+
   stat_summary(fun.ymin=median, fun.ymax=median, fun.y=median, geom="crossbar")
