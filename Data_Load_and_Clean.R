@@ -24,4 +24,4 @@ clean<-function(){
   }
 
 clean()
-View(df)
+nrow(df)
