@@ -173,6 +173,16 @@
             ],
             "source": "Murder.R",
             "target": "sortedmurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "color",
+                    "type": "png"
+                }
+            ],
+            "source": "Murder.R",
+            "target": "color.png"
         }
     ],
     "nodes": [
@@ -249,6 +259,6 @@
             "name": "color.png"
         }
     ],
-    "updated_at": "2018-10-10 19:39:22",
+    "updated_at": "2018-10-10 19:39:31",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
