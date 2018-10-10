@@ -16,6 +16,7 @@ clean<-function(){
   arrests<- arrests %>% rownames_to_column('statesName')
   #Assigning the intersect for the merge
   common<-intersect(names(arrests$statesName),names(data$STATE))
+  #Merging the dataframes
   df<-merge(data,arrests,by.x='statesName',by.y = 'statesName')
   }
 
