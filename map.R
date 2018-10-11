@@ -20,3 +20,4 @@ coord_map()+ggtitle("Murder Rate across US")
 
 
 map3<-ggplot(df, aes(map_id=stateName))
+point<-map3+grom_point(shape=1, size=df$population)
