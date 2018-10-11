@@ -24,4 +24,4 @@ point<-map3+geom_map(data=df,map=us, color='black', aes(fill=df$Murder))+
 expand_limits(x=us$long,y=us$lat)+
 coord_map()+ggtitle("Murder Rate across US")
 
-point<-point+geom_point(x=df$x,y=df$y,size=df$population, color='white')
+point<-point+geom_point(x=df$x,y=df$y,aes(size=df$population, color='white'))
