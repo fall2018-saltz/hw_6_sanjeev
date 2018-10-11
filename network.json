@@ -286,8 +286,12 @@
             "desc": "Merging the new data from the map package.",
             "name": "Merge2.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Creating Maps from the new merged dataset",
+            "name": "map.R"
         }
     ],
-    "updated_at": "2018-10-11 20:13:38",
+    "updated_at": "2018-10-11 20:17:02",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
