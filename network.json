@@ -218,22 +218,22 @@
         {
             "ports": [
                 {
-                    "output": "us",
-                    "type": "png"
-                }
-            ],
-            "source": "map.R",
-            "target": "map.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "murder",
                     "type": "png"
                 }
             ],
             "source": "map.R",
             "target": "murdermap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map.png"
         }
     ],
     "nodes": [
@@ -331,6 +331,6 @@
             "name": "murdermap.png"
         }
     ],
-    "updated_at": "2018-10-11 21:08:35",
+    "updated_at": "2018-10-11 21:16:21",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
