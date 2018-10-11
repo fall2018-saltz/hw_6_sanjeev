@@ -193,6 +193,16 @@
             ],
             "source": "Murder.R",
             "target": "scatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Merge2.R"
         }
     ],
     "nodes": [
@@ -272,12 +282,12 @@
             "name": "scatter.png"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "saramasa",
             "desc": "Merging the new data from the map package.",
             "name": "Merge2.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 20:12:41",
+    "updated_at": "2018-10-11 20:13:38",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
