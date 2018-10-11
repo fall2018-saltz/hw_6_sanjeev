@@ -214,6 +214,16 @@
             ],
             "source": "Merge2.R",
             "target": "map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "us",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map.png"
         }
     ],
     "nodes": [
@@ -308,6 +318,6 @@
             "name": "map.png"
         }
     ],
-    "updated_at": "2018-10-11 20:21:17",
+    "updated_at": "2018-10-11 20:21:27",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
