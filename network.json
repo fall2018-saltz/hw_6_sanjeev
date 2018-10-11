@@ -244,6 +244,16 @@
             ],
             "source": "map.R",
             "target": "point.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zoom",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "zoom.png"
         }
     ],
     "nodes": [
@@ -347,6 +357,6 @@
             "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-11 21:45:23",
+    "updated_at": "2018-10-11 21:45:33",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
