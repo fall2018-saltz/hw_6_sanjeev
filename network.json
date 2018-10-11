@@ -193,6 +193,67 @@
             ],
             "source": "Murder.R",
             "target": "scatter.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Merge2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge2.R",
+            "target": "map.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "murder",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "murdermap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "usa",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "map.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "point",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "point.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zoom",
+                    "type": "png"
+                }
+            ],
+            "source": "map.R",
+            "target": "zoom.png"
         }
     ],
     "nodes": [
@@ -270,8 +331,32 @@
         },
         {
             "name": "scatter.png"
+        },
+        {
+            "assigned_to": "saramasa",
+            "desc": "Merging the new data from the map package.",
+            "name": "Merge2.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "saramasa",
+            "desc": "Creating Maps from the new merged dataset",
+            "name": "map.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map.png"
+        },
+        {
+            "name": "murdermap.png"
+        },
+        {
+            "name": "point.png"
+        },
+        {
+            "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-10 19:42:20",
+    "updated_at": "2018-10-11 21:45:33",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
