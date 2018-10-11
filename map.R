@@ -3,7 +3,7 @@ library("ggplot2")
 library("ggmap")
 library("maps")
 
-us <- map_data("state")
+#us <- map_data("state")
 
 df$statename<-tolower(df$statename)
 
