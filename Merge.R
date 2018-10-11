@@ -7,3 +7,5 @@ rownames(data)<-as.vector(data[,"stateName"])
 
 #Merging the two datasets
 df<-merge(data,arrests,by="row.names")
+
+df<-df[-c(1)]
