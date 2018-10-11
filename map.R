@@ -29,7 +29,7 @@ point<-point+geom_point(x=df$x,y=df$y,aes(size=df$population),color='white')
 map4<-ggplot(df, aes(map_id=stateName))
 point2<-map3+geom_map(data=df,map=us, color='black', aes(fill=df$Murder))+
 expand_limits(x=us$long,y=us$lat)+
-coord_map(xlim=c(-64,-84),ylim=c(-30.71,50.71))+ggtitle("Murder Rate across North East US")
+coord_map(xlim=c(-64,-84),ylim=c(30.71,50.71))+ggtitle("Murder Rate across North East US")
 
 zoom<-point2+geom_point(x=df$x,y=df$y,aes(size=df$population),color='white')
 
