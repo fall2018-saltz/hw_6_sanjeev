@@ -299,10 +299,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "saramasa",
             "desc": "Creating Maps from the new merged dataset",
-            "name": "map.R"
+            "name": "map.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map.png"
         }
     ],
-    "updated_at": "2018-10-11 20:17:17",
+    "updated_at": "2018-10-11 20:21:17",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
