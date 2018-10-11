@@ -203,6 +203,17 @@
             ],
             "source": "data.csv",
             "target": "Merge2.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "Merge2.R",
+            "target": "map.R"
         }
     ],
     "nodes": [
@@ -292,6 +303,6 @@
             "name": "map.R"
         }
     ],
-    "updated_at": "2018-10-11 20:17:02",
+    "updated_at": "2018-10-11 20:17:17",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
