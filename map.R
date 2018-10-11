@@ -17,5 +17,6 @@ coord_map()+ggtitle("State Area")
 murder<-ggplot(df, aes(map_id=stateName))
 murder<-murder+geom_map(data=df,map=us, color='black', aes(fill=df$Murder))+
 expand_limits(x=us$long,y=us$lat)+
-coord_map()
+coord_map()+ggtitle("Murder Rate across US")
+
 
