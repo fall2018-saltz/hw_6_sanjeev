@@ -342,8 +342,11 @@
         },
         {
             "name": "point.png"
+        },
+        {
+            "name": "zoom.png"
         }
     ],
-    "updated_at": "2018-10-11 21:20:26",
+    "updated_at": "2018-10-11 21:45:23",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
