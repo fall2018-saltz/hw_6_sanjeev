@@ -5,7 +5,7 @@ library("maps")
 
 #us <- map_data("state")
 
-df$statename<-tolower(df$statename)
+#df$statename<-tolower(df$statename)
 
 str(df)
 #map<-ggplot(df, aes(map_id=statename))
