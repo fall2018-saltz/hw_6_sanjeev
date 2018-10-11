@@ -5,4 +5,5 @@ colnames(df2)[colnames(df2) == 'state.name'] <- 'statename'
 colnames(df2)[colnames(df2) == 'state.area'] <- 'statearea'
 df<-merge(df,df2,by="row.names")
 df<-df[-c(1)]
+df<-df[-c(8)]
 str(df)
