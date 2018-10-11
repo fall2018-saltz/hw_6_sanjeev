@@ -1,5 +1,6 @@
 
 us <- map_data("state")
+
 df<-tolower(df$statename)
 map<-ggplot(df, aes(map_id=state))
 
