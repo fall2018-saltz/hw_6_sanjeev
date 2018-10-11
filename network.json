@@ -272,10 +272,12 @@
             "name": "scatter.png"
         },
         {
-            "desc": "",
-            "name": "map.R"
+            "assigned_to": "not assigned",
+            "desc": "Merging the new data from the map package.",
+            "name": "Merge2.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 20:11:59",
+    "updated_at": "2018-10-11 20:12:41",
     "url": "https://github.com/fall2018-saltz/hw_6_sanjeev"
 }
