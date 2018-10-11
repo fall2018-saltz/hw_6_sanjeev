@@ -11,6 +11,6 @@ str(df)
 map<-ggplot(df, aes(map_id=stateName))
 
 us<-map+geom_map(data=df,map=us, color='black', aes(fill=df$statearea))+expand_limits(x=us$long,y=us$lat)
-
+map<-ggplot(df, aes(map_id=stateName))
 murder<-map+geom_map(data=df,map=us, color='black', aes(fill=df$Murder))+expand_limits(x=us$long,y=us$lat)
 
