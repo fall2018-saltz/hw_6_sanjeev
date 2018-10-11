@@ -4,11 +4,10 @@ library('ggmap')
 
 us <- map_data("state")
 
-us
-df<-tolower(df$statename)
+df$statesName<-tolower(df$statesName)
 
-#map<-ggplot(df, aes(map_id=state))
+map<-ggplot(df, aes(map_id=statesName))
 
-#map<-ggplot(df,aes(map_id=state))
-#map
-#+geom_map(data=df,map=df,fill='white', color='black')+expand_limits(x=df$x,y=df$y)
+map<-map+geom_map(data=df,map=us,fill='white', color='black')+expand_limits(x=5+df$x,y=df$y-5)
+
+map
