@@ -19,3 +19,4 @@ expand_limits(x=us$long,y=us$lat)+
 coord_map()+ggtitle("Murder Rate across US")
 
 
+map3<-ggplot(df, aes(map_id=stateName))
