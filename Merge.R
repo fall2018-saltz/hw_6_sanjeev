@@ -9,3 +9,4 @@ rownames(data)<-as.vector(data[,"stateName"])
 df<-merge(data,arrests,by="row.names")
 
 df<-df[-c(1)]
+str(df)
